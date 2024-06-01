@@ -1,0 +1,146 @@
+h1 { 
+    text-align: center;
+}
+.a_nazad {
+    font-style:italic;
+}
+h2 {
+    text-align:center;
+}
+th {
+    text-align:center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+table, caption, thead, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+td, th {
+    padding: 3px;
+}
+caption {
+    font-size: 18px;
+}
+tr td:nth-child(5) {
+    text-align:right;
+}
+@media (min-width: 992px) {
+    .text-lg-1 {
+    font-size:90%
+    }
+    .text-lg-2 {
+        font-size:100%
+    }
+    .text-lg-3 {
+        font-size:110%
+    }
+    .text-lg-4 {
+        font-size:120%
+    }
+    .text-lg-5 {
+        font-size:130%
+    }
+    .text-lg-6 {
+        font-size:140%
+    }
+    
+    .text-lg-7 {
+        font-size:150%
+    }
+    .text-lg-8 {
+        font-size:160%
+    }
+    .text-lg-9 {
+        font-size:170%
+    }
+    .text-lg-10 {
+        font-size:180%
+    }
+    .text-lg-11 {
+        font-size:190%
+    }
+    .text-lg-12 {
+        font-size:200%
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    
+    .text-md-1 {
+    font-size:90%
+    }
+    .text-md-2 {
+        font-size:100%
+    }
+    .text-md-3 {
+        font-size:110%
+    }
+    .text-md-4 {
+        font-size:120%
+    }
+    .text-md-5 {
+        font-size:130%
+    }
+    .text-md-6 {
+        font-size:140%
+    }
+    
+    .text-md-7 {
+        font-size:150%
+    }
+    .text-md-8 {
+        font-size:160%
+    }
+    .text-md-9 {
+        font-size:170%
+    }
+    .text-md-10 {
+        font-size:180%
+    }
+    .text-md-11 {
+        font-size:190%
+    }
+    .text-md-12 {
+        font-size:200%
+    }
+}
+@media (max-width: 768px) {
+    .text-sm-1 {
+    font-size:90%
+    }
+    .text-sm-2 {
+        font-size:100%
+    }
+    .text-sm-3 {
+        font-size:110%
+    }
+    .text-sm-4 {
+        font-size:120%
+    }
+    .text-sm-5 {
+        font-size:130%
+    }
+    .text-sm-6 {
+        font-size:140%
+    }
+    
+    .text-sm-7 {
+        font-size:150%
+    }
+    .text-sm-8 {
+        font-size:160%
+    }
+    .text-sm-9 {
+        font-size:170%
+    }
+    .text-sm-10 {
+        font-size:180%
+    }
+    .text-sm-11 {
+        font-size:190%
+    }
+    .text-sm-12 {
+        font-size:200%
+    }
+}
