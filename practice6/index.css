@@ -1,0 +1,82 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+@media (min-width: 992px) {
+    
+    a{
+        display:inline-block;
+    }
+    .col-lg-3 {
+    flex-basis: 25%;
+    }
+    .col-lg-6 {
+    flex-basis: 50%;
+    }
+    
+    .col-lg-12 {
+    flex-basis: 100%;
+    }
+    }
+@media (min-width: 768px) and (max-width: 992px) {
+   
+    .col-md-3 {
+    flex-basis: 25%;
+    }
+    .col-md-6 {
+    flex-basis: 50%;
+    }
+        
+    .col-md-12 {
+    flex-basis: 100%;
+    }
+    }
+@media (max-width:  768px) {
+   
+    .col-mn-3 {
+    flex-basis: 25%;
+    }
+    .col-mn-6 {
+    flex-basis: 50%;
+    }
+        
+    .col-mn-12 {
+    flex-basis: 100%;
+    }
+    }
+
+    h1 {
+        text-align:center;
+        font-size: 24px;
+    }
+    p{
+        font-size: 120%;
+    }
+#biography:link {
+    color: purple;
+}
+#biography:visited {
+    color: orange;
+}
+#nowadays:link {
+    color: red;
+}
+#nowadays:visited {
+    color: magenta;
+}
+#friends:link {
+    color: maroon;
+}
+#friends:visited {
+    color: blue;
+}
+#gallery:link {
+    color: olive;
+}
+#gallery:visited {
+    color: violet;
+}
+   
